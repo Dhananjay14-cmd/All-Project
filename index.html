@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="searchbar">
+        <span class="icon">🔍</span>
+        <input type="text" placeholder="Search for products, brands and more" />
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-content">🎉 Fresh Deals Today</div>
+    </section>
+
+    <section class="categories">
+      <div class="category">
+        <div class="avatar">
+          <span>📱</span>
+        </div>
+        <p>Electronics</p>
+      </div>
+      <div class="category">
+        <div class="avatar">
+          <span>👕</span>
+        </div>
+        <p>Fashion</p>
+      </div>
+      <div class="category">
+        <div class="avatar avatar-muted">
+          <span>🏠</span>
+        </div>
+        <p>Home</p>
+      </div>
+      <div class="category">
+        <div class="avatar">
+          <span>📚</span>
+        </div>
+        <p>Books</p>
+      </div>
+      <div class="category">
+        <div class="avatar">
+          <span>⚽</span>
+        </div>
+        <p>Sports</p>
+      </div>
+      <div class="category">
+        <div class="avatar">
+          <span>🎮</span>
+        </div>
+        <p>Gaming</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="grid-header">
+        <h2>Deals</h2>
+      </div>
+      <div class="grid-2col">
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="badge">24% OFF</div>
+          <button class="wish" aria-label="wishlist">🤍</button>
+          <div class="media"></div>
+          <div class="card-body">
+            <h3>Smartphone XZ Pro</h3>
+            <div class="rating"><span>★ 4.5</span><small>(2.3k)</small></div>
+            <div class="price">
+              <span class="current">₹18,999</span>
+              <span class="mrp">₹24,999</span>
+              <span class="off">24% off</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="badge">27% OFF</div>
+          <button class="wish" aria-label="wishlist">🤍</button>
+          <div class="media"></div>
+          <div class="card-body">
+            <h3>Laptop Ultra Slim</h3>
+            <div class="rating"><span>★ 4.3</span><small>(1.8k)</small></div>
+            <div class="price">
+              <span class="current">₹45,999</span>
+              <span class="mrp">₹62,999</span>
+              <span class="off">27% off</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 3 wide -->
+        <article class="card wide">
+          <div class="badge">42% OFF</div>
+          <button class="wish" aria-label="wishlist">🤍</button>
+          <div class="media icon-center">⌚</div>
+          <div class="card-body">
+            <h3>Smart Watch Pro</h3>
+            <div class="rating"><span>★ 4.6</span><small>(3.2k)</small></div>
+            <div class="price">
+              <span class="current">₹3,499</span>
+              <span class="mrp">₹5,999</span>
+              <span class="off">42% off</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 4 wide -->
+        <article class="card wide">
+          <div class="badge">43% OFF</div>
+          <button class="wish" aria-label="wishlist">🤍</button>
+          <div class="media icon-center">🎧</div>
+          <div class="card-body">
+            <h3>Wireless Earbuds</h3>
+            <div class="rating"><span>★ 4.4</span><small>(5.1k)</small></div>
+            <div class="price">
+              <span class="current">₹1,999</span>
+              <span class="mrp">₹3,499</span>
+              <span class="off">43% off</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="grid-header">
+        <h2>Recommended for You</h2>
+        <a href="#" class="view-all">View All →</a>
+      </div>
+      <div class="grid-2col">
+        <!-- Reco cards -->
+        <article class="card">
+          <div class="badge">50% OFF</div>
+          <button class="wish" aria-label="wishlist">🤍</button>
+          <div class="media icon-center">👕</div>
+          <div class="card-body">
+            <h3>Cotton T-Shirt</h3>
+            <div class="rating"><span>★ 4.2</span><small>(892)</small></div>
+            <div class="price">
+              <span class="current">₹499</span>
+              <span class="mrp">₹999</span>
+              <span class="off">50% off</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="badge">50% OFF</div>
+          <button class="wish" aria-label="wishlist">🤍</button>
+          <div class="media icon-center">👟</div>
+          <div class="card-body">
+            <h3>Running Shoes</h3>
+            <div class="rating"><span>★ 4.5</span><small>(1.5k)</small></div>
+            <div class="price">
+              <span class="current">₹2,499</span>
+              <span class="mrp">₹4,999</span>
+              <span class="off">50% off</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="badge">28% OFF</div>
+          <button class="wish" aria-label="wishlist">🤍</button>
+          <div class="media icon-center">📷</div>
+          <div class="card-body">
+            <h3>Digital Camera HD</h3>
+            <div class="rating"><span>★ 4.7</span><small>(672)</small></div>
+            <div class="price">
+              <span class="current">₹28,999</span>
+              <span class="mrp">₹39,999</span>
+              <span class="off">28% off</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="badge">48% OFF</div>
+          <button class="wish" aria-label="wishlist">🤍</button>
+          <div class="media icon-center">🎒</div>
+          <div class="card-body">
+            <h3>Travel Backpack</h3>
+            <div class="rating"><span>★ 4.3</span><small>(1.1k)</small></div>
+            <div class="price">
+              <span class="current">₹1,299</span>
+              <span class="mrp">₹2,499</span>
+              <span class="off">48% off</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <nav class="tabbar">
+    <a class="tab active" href="#">
+      <span>🏠</span>
+      <small>Home</small>
+    </a>
+    <a class="tab" href="#">
+      <span>📁</span>
+      <small>Categories</small>
+    </a>
+    <a class="tab" href="#">
+      <span class="cart-badge" data-count="3">🛒</span>
+      <small>Cart</small>
+    </a>
+    <a class="tab" href="#">
+      <span>❤️</span>
+      <small>Wishlist</small>
+    </a>
+    <a class="tab" href="#">
+      <span>👤</span>
+      <small>Account</small>
+    </a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
